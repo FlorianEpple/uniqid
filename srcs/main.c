@@ -6,7 +6,7 @@
 /*   By: flepple <info@florianepple.de>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/19 12:38:35 by flepple           #+#    #+#             */
-/*   Updated: 2024/04/21 21:00:35 by flepple          ###   ########.fr       */
+/*   Updated: 2024/04/22 17:42:26 by flepple          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,8 @@
 
 int	main(void)
 {
+	set_srand(UNIQID_SRAND_DEF);
+	write(1, PSW_HIGH(), 12);
+	write(1, "\n", 1);
 	return (0);
 }

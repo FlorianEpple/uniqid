@@ -6,7 +6,7 @@
 /*   By: flepple <info@florianepple.de>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/18 11:34:26 by flepple           #+#    #+#             */
-/*   Updated: 2024/04/21 20:50:42 by flepple          ###   ########.fr       */
+/*   Updated: 2024/04/22 17:40:51 by flepple          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,5 +53,8 @@ char	*uuid(char *);
 # define UID_HX16() uniqid(16, CHARSET_HEX16)
 # define UID_HX16L() uniqid(16, CHARSET_HEX16_LOWER)
 # define UUID_36() uuid(NULL)
+# define PSW_LOW() uniqid(8, CHARSET_PASSWORD_LOW)
+# define PSW_MID() uniqid(10, CHARSET_PASSWORD_MIDDLE)
+# define PSW_HIGH() uniqid(12, CHARSET_PASSWORD_HIGH)
 
 #endif // UNIQID_H
