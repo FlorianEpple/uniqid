@@ -10,7 +10,7 @@ uid [[[-l|len] [-w|lower]] / [-u|uuid [-p|prefix]] / [-s|secure(def:low|mid|high
 > uid
 > uid [[-l|len] [-w|lower]]
 > uid [-u|uuid [-p|prefix]]
-> uid [-s|sign(def:low|mid|high) [-l|len]]
+> uid [-s|secure(def:low|mid|high) [-l|len]]
 ```
 
 ## examples
