@@ -5,7 +5,7 @@ A unix c program, for generating uniqids (only run able on Darwin systems)
 ## usage
 
 ```shell
-uid [[[-l|len] [-w|lower]] / [-u|uuid [-p|prefix]] / [-s|sign(def:low|mid|high) [-l|len]]]
+uid [[[-l|len] [-w|lower]] / [-u|uuid [-p|prefix]] / [-s|secure(def:low|mid|high) [-l|len]]]
 
 > uid
 > uid [[-l|len] [-w|lower]]
